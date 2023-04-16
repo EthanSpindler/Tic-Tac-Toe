@@ -7,7 +7,7 @@ class Human:
    def __init__( self, xORo ):
       self.symbol = xORo
       print("Ready to play Tic-Tac-Toe?\nYou'll be playing the ",xORo," pieces.\n")
-   #this is where i changed my shit
+
    def showboard( self, gameboard ):
       # show current board state
       for i in range(9):
